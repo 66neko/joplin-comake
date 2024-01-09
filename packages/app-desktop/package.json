@@ -43,7 +43,7 @@
     "asarUnpack": "./node_modules/node-notifier/vendor/**",
     "win": {
       "rfc3161TimeStampServer": "http://timestamp.digicert.com",
-      "icon": "../../Assets/ImageSources/Joplin.ico",
+      "icon": "../../Assets/ImageSources/comake.png",
       "target": [
         {
           "target": "nsis",
