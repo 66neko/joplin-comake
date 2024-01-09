@@ -1,7 +1,7 @@
 {
   "name": "@joplin/app-desktop",
   "version": "2.13.13",
-  "description": "Joplin for Desktop",
+  "description": "comake数字笔记",
   "main": "main.js",
   "private": true,
   "scripts": {
@@ -30,7 +30,7 @@
   "build": {
     "appId": "net.cozic.joplin-desktop",
     "compression": "normal",
-    "productName": "Joplin",
+    "productName": "Comake数字笔记",
     "npmRebuild": false,
     "afterSign": "./tools/notarizeMacApp.js",
     "extraResources": [

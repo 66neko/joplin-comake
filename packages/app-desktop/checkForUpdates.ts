@@ -65,7 +65,12 @@ async function addSkippedVersion(s: string) {
 }
 
 export default async function checkForUpdates(inBackground: boolean, parentWindow: any, options: CheckForUpdateOptions) {
+
 	if (isCheckingForUpdate_) {
+		logger.info('Skipping check because it is already running');
+		return;
+	}
+	if (!isCheckingForUpdate_) {
 		logger.info('Skipping check because it is already running');
 		return;
 	}
