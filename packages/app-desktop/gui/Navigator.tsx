@@ -13,7 +13,7 @@ class NavigatorComponent extends React.Component<Props> {
 		if (newProps.route) {
 			const screenInfo = this.props.screens[newProps.route.routeName];
 			const devMarker = Setting.value('env') === 'dev' ? ` (DEV - ${Setting.value('profileDir')})` : '';
-			const windowTitle = [`Joplin${devMarker}`];
+			const windowTitle = [`Comake数字笔记${devMarker}`];
 			if (screenInfo.title) {
 				windowTitle.push(screenInfo.title());
 			}
