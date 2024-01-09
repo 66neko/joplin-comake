@@ -236,7 +236,7 @@ msgstr "A5"
 #: packages/app-desktop/gui/MenuBar.tsx:572
 #: packages/app-desktop/gui/MenuBar.tsx:887
 msgid "About Joplin"
-msgstr "关于 Joplin"
+msgstr "关于 Comake数字笔记"
 
 #: packages/lib/services/KeymapService.ts:323
 #: packages/lib/services/KeymapService.ts:328

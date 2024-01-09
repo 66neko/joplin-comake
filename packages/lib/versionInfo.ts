@@ -66,6 +66,8 @@ export default function versionInfo(packageInfo: PackageInfo, plugins: Plugins) 
 	const header = [
 		p.description,
 		'',
+		'Comake数字笔记是用于讨论、记录、复用、发布的AI工具',
+		'',
 		copyrightText.replace('YYYY', `${now.getFullYear()}`),
 	];
 
